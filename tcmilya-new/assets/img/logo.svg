@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 44" width="178" height="44">
+  <!-- TODO: временный логотип. Заменить на оригинальный https://www.tcmilya.ru/images/logo.svg (и logo-wh.svg для темного фона) -->
+  <title>Миля</title>
+  <rect width="44" height="44" rx="12" fill="#43204b"/>
+  <path d="M9 33V20a6.5 6.5 0 0 1 13 0v13M22 20a6.5 6.5 0 0 1 13 0v13" fill="none" stroke="#d4f25c" stroke-width="4.5" stroke-linecap="round"/>
+  <g fill="none" stroke="#1c1220" stroke-width="5.5" stroke-linejoin="miter" stroke-miterlimit="6">
+    <path d="M57 37V8l13 18 13-18v29"/>
+    <path d="M93 7v30L115 7v30"/>
+    <path d="M123 37c5 0 6.5-3 7-10l1.2-20H147v30"/>
+    <path d="M174 37V9.8h-11.5a7.6 7.6 0 0 0 0 15.2H174M164 25l-9 12"/>
+  </g>
+</svg>

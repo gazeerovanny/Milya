@@ -1,0 +1,4 @@
+# Деплой на Netlify из корня репозитория: сборка не нужна, публикуется папка tcmilya-new
+[build]
+  publish = "tcmilya-new"
+  command = ""

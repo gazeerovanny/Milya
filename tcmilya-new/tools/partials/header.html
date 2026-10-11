@@ -1,0 +1,66 @@
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<div class="topbar">
+  <div class="container topbar__inner">
+    <span class="topbar__item status" data-status="center"><span class="status__dot"></span><span class="status__text">Ежедневно 10:00-22:00</span></span>
+    <span class="topbar__item"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg>ул. Генерала Кузнецова, 22</span>
+    <span class="topbar__item"><svg class="icon" aria-hidden="true"><use href="#i-metro"></use></svg>м. Жулебино</span>
+    <span class="topbar__end">
+      <a href="{{root}}pages/contacts.html" data-nav="contacts">Аренда и контакты</a>
+      <a href="{{root}}pages/about.html" data-nav="about">О центре</a>
+      <a href="https://vk.com/trc.milya" target="_blank" rel="noopener">ВКонтакте</a>
+    </span>
+  </div>
+</div>
+<header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="{{root}}index.html" aria-label="ТРЦ «Миля», на главную">
+      <picture>
+        <source srcset="{{root}}assets/img/logo-wh.svg" media="(prefers-color-scheme: dark)">
+        <img src="{{root}}assets/img/logo.svg" alt="Миля" width="130" height="32">
+      </picture>
+    </a>
+    <nav class="nav" aria-label="Основное меню">
+      <a href="{{root}}pages/shops.html" data-nav="shops">Магазины</a>
+      <a href="{{root}}pages/food.html" data-nav="food">Еда</a>
+      <a href="{{root}}pages/fun.html" data-nav="fun">Развлечения</a>
+      <a href="{{root}}pages/services.html" data-nav="services">Услуги</a>
+      <a href="{{root}}pages/cinema.html" data-nav="cinema">Кино</a>
+      <a href="{{root}}pages/news.html" data-nav="news">Акции</a>
+      <a href="{{root}}pages/map.html" data-nav="map">Схема</a>
+    </nav>
+    <div class="header__actions">
+      <span class="header__status status" data-status="center" data-status-mode="mini" title="Режим работы сегодня"><span class="status__dot"></span><span class="status__text">10:00-22:00</span></span>
+      <a class="icon-btn" href="{{root}}pages/shops.html#catalog-search" aria-label="Найти магазин"><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg></a>
+      <a class="btn btn--dark btn--sm header__route" href="{{root}}pages/directions.html" data-nav="directions"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg>Как добраться</a>
+      <button class="icon-btn burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Открыть меню">
+        <svg class="icon icon-menu" aria-hidden="true"><use href="#i-menu"></use></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="mnav" id="mnav">
+  <div class="container mnav__inner">
+    <nav aria-label="Мобильное меню">
+      <ul class="mnav__list">
+        <li><a href="{{root}}pages/shops.html" data-nav="shops">Магазины<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+        <li><a href="{{root}}pages/food.html" data-nav="food">Еда<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+        <li><a href="{{root}}pages/fun.html" data-nav="fun">Развлечения и досуг<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+        <li><a href="{{root}}pages/services.html" data-nav="services">Услуги<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+        <li><a href="{{root}}pages/cinema.html" data-nav="cinema">Кино<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+        <li><a href="{{root}}pages/news.html" data-nav="news">Акции и новости<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+        <li><a href="{{root}}pages/map.html" data-nav="map">Схема ТРЦ<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li>
+      </ul>
+    </nav>
+    <ul class="mnav__sub">
+      <li><a href="{{root}}pages/directions.html" data-nav="directions">Как добраться</a></li>
+      <li><a href="{{root}}pages/contacts.html" data-nav="contacts">Контакты и аренда</a></li>
+      <li><a href="{{root}}pages/about.html" data-nav="about">О центре</a></li>
+    </ul>
+    <div class="mnav__info">
+      <p><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg><span>Ежедневно 10:00-22:00<br>Перекресток 08:00-23:00</span></p>
+      <p><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg><span>Москва, ул. Генерала Кузнецова, 22<br>Метро Жулебино</span></p>
+      <p><svg class="icon" aria-hidden="true"><use href="#i-vk"></use></svg><a href="https://vk.com/trc.milya" target="_blank" rel="noopener">Мы во ВКонтакте</a></p>
+    </div>
+  </div>
+</div>
